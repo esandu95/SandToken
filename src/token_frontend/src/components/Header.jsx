@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 function Header() {
   return (
@@ -9,6 +10,7 @@ function Header() {
             ⌛SAND
           </span>
         </h1>
+        <Navbar />
       </div>
     </header>
   );

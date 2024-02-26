@@ -1,6 +1,6 @@
 html {
   background-color: #ffffff;
-  background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
+  background-image: url(https://www.transparenttextures.com/patterns/cubes.png);
   font-family: System, monospace;
   font-size: 10pt;
 }
@@ -135,10 +135,7 @@ button:disabled {
   border: 1px outset #707070;
 }
 
-button:first-letter,
-.button:first-letter {
-  color: yellow;
-}
+
 
 button#btn-transfer {
   margin-top: 20px;
@@ -192,4 +189,41 @@ footer {
 #balance {
   font-size: 1.2rem;
   font-weight: 800;
+}
+
+#log-in {
+  background-color: #E17911;
+  box-shadow: none;
+  text-decoration: underline;
+  border: 0px;
+  font-size: 1.3rem;
+  padding: 0.5, 0.5;
+}
+
+#log-in:active,
+#log-in:focus,
+#log-in:hover,
+.menuButton:hover {
+  transform: none;
+  box-shadow: none;
+  color: rgb(243, 186, 80);
+}
+
+#principal {
+  color: lightgrey;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menuButton {
+  margin: 5px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.about-text {
+  text-align: justify;
+  line-height: 25px;
 }
